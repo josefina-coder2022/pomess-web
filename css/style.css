@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Mukta:wght@600&family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins',
+    sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  font-size: large;
+  border-bottom: 1px solid rgb(240, 236, 236);
+
+}
+
+.containerHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logoHeader {
+  background: rgb(103, 105, 104);
+  background: radial-gradient(circle, rgba(103, 105, 104, 1) 0%, rgba(9, 0, 9, 1) 100%);
+}
+
+.sectionNavbar {
+  background: rgb(96, 97, 97);
+  background: radial-gradient(circle, rgb(61, 61, 61) 0%, rgba(9, 0, 9, 1) 40%);
+}
+
+#logo {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+nav ul {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover{
+  color: rgb(248, 208, 27);
+  text-decoration-line: underline;
+}
+
+.bordeHeader {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(248, 208, 27);
+  box-shadow: 2px 4px 4px rgb(83, 83, 83);
+}
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(3, 3, 3);
+  color: white;
+  display: flex;
+  box-shadow: 0px 3px 5px 0px #383F38;
+}
+
+.parrHero {
+  width: 40%;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.parrHero p span {
+  color: rgb(250, 196, 17);
+
+}
+
+.iconHero {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: 1px solid rgb(99, 99, 99);
+  padding: 20px;
+}
+
+.iconArticle {
+  display: flex;
+  width: 400px;
+}
+
+.iconArticle i {
+  width: 60px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.iconHero .iconArticle .parrIcon {
+  margin-left: 20px;
+  line-height: 3;
+  font-size: 22px;
+}
+
+.uno {
+  color: rgb(94, 94, 245);
+}
+
+.dos {
+  color: rgb(17, 204, 17);
+}
+
+.tres {
+  color: rgb(255, 4, 4);
+}
+
+.cuatro {
+  color: yellow;
+}
+
+.parrIcon {
+  text-align: center;
+
+}
+
+main {
+  width: 100%;
+  background-color: rgb(224, 222, 222);
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionMain {
+  width: 40%;
+  margin-left: 120px;
+  font-size: small;
+  text-align: left;
+  color: white;
+  margin-top: 20px;
+}
+
+.asideMain {
+  width: 60%;
+  height: 40vh;
+  margin-right: 120px;
+  font-size: small;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgb(180, 179, 179);
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.infoMain {
+  background-color: rgb(252, 92, 34);
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 5px;
+
+}
+
+.prodMain {
+  background-color: grey;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconFlecha {
+  color: rgb(32, 32, 32);
+  font-size: x-large;
+  padding: 4px;
+
+}
+
+h1 {
+  font-size: large;
+}
+
+h2 {
+  font-size: large;
+  color: black;
+  margin-left: 4px;
+}
+
+h3 {
+  font-size: large;
+}
+
+.spanMain {
+  font-size: small;
+}
+
+.news {
+  width: 100%;
+  height: auto;
+}
+
+.contenedorNews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.newsDos {
+  width: 100%;
+  height: auto;
+}
+
+.textNovedad {
+  width: 75%;
+}
+
+.parrProductos {
+  margin-top: 15px;
+}
+
+
+.imgNovedades {
+  width: 20%;
+  background-size: cover;
+}
+
+.asideMain .news .contenedorNews .imgNovedades img {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+}
+
+
+footer {
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  justify-content: space-around;
+}
+
+.parrFooter {
+  color: rgb(148, 147, 147);
+  font-size: small;
+  margin-top: 5px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.parrFooter #lineaVertical {
+  border-right: 1px solid rgb(148, 147, 147);
+}
+
+.parrFooter p span {
+  color: white;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+.iconFooter {
+  font-size: large;
+  margin-top: 5px;
+  display: flex;
+  gap: 15px;
+
+}
+
+.icons {
+  color: rgb(148, 147, 147);
+}
+
+
+/*AREAS*/
+
+header {
+  grid-area: header;
+
+}
+
+.bordeHeader {
+  grid-area: borde;
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
+#grilla {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "header header"
+    "borde borde"
+    "hero hero"
+    "main main"
+    "footer footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 2% 1fr 2fr auto;
+
+}
+
+/*TABLET*/
+@media (max-width:1023px) {
+
+#grilla {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "header header"
+    "borde borde"
+    "hero hero"
+    "main main"
+    "footer footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 30% 2% 1fr 2fr auto;
+
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  font-size: large;
+  border-bottom: none;
+
+}
+
+.containerHeader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.logoHeader {
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+#logo {
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  
+}
+
+.sectionNavbar {
+  background: black;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+.bordeHeader {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(248, 208, 27);
+  box-shadow: none;
+}
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(3, 3, 3);
+  color: white;
+  display: flex;
+  box-shadow: none;
+}
+
+.parrHero {
+  width: 40%;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+ .infoMain {
+   background: rgb(244, 45, 6);
+   background: linear-gradient(90deg, rgba(244, 45, 6, 1) 0%, rgba(247, 165, 23, 1) 50%, rgba(249, 226, 94, 1) 100%);
+   border-radius: 8px;
+   margin-right: 10px;
+   padding: 5px;
+ }
+
+ .asideMain {
+   width: 60%;
+   height: 55vh;
+   margin-right: 120px;
+   font-size: small;
+   text-align: left;
+   margin-top: 20px;
+   margin-left: 10px;
+   background-color: rgb(180, 179, 179);
+   border-radius: 8px;
+   padding: 5px;
+ }
+
+}
+
+/*MOBILE SMARTPHONE*/
+@media (max-width:760px) {
+
+  #grilla {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header header"
+      "borde borde"
+      "hero hero"
+      "main main"
+      "footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 45% 1% 1fr 2fr auto;
+  }
+
+  header {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    font-size: large;
+    border-bottom: none;
+  }
+
+  .containerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .logoHeader {
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #logo {
+    width: 80%;
+    height: auto;
+    text-align: center;
+  }
+
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+  }
+
+  nav ul li {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .bordeHeader {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(248, 208, 27);
+  }
+
+  .hero {
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .parrHero {
+    width: 90%;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(244, 101, 6);
+    background: linear-gradient(90deg, rgba(244, 101, 6, 1) 0%, rgba(253, 171, 29, 1) 50%, rgba(246, 236, 223, 1) 100%);
+    border-radius: 8px;
+    color: black;
+
+  }
+
+  .parrHero p span {
+    color: rgb(250, 71, 17);
+    font-weight: bold;
+
+  }
+
+  .iconHero {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: none;
+    align-items: center;
+  }
+
+  .uno {
+    color: rgb(94, 94, 245);
+    font-size: 40px;
+  }
+
+  .dos {
+    color: rgb(17, 204, 17);
+    font-size: 40px;
+  }
+
+  .tres {
+    color: rgb(255, 4, 4);
+    font-size: 40px;
+  }
+
+  .cuatro {
+    color: yellow;
+    font-size: 40px;
+  }
+
+  .parrIcon {
+    margin-left: 10px;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    background-color: rgb(224, 222, 222);
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .sectionMain {
+    width: 90%;
+    font-size: small;
+    color: white;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h2 {
+    font-size: medium;
+    color: black;
+    margin-left: 4px;
+  }
+
+  .infoMain {
+    background: rgb(244, 45, 6);
+    background: linear-gradient(90deg, rgba(244, 45, 6, 1) 0%, rgba(247, 165, 23, 1) 50%, rgba(249, 226, 94, 1) 100%);
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .prodMain {
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .asideMain {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    text-align: left;
+    margin-top: 10px;
+    background-color: rgb(180, 179, 179);
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .parrFooter {
+    color: rgb(148, 147, 147);
+    font-size: 12px;
+    margin-top: 5px;
+    padding-right: 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .parrFooter #lineaVertical {
+    border-right: 1px solid rgb(148, 147, 147);
+  }
+
+  .parrFooter p span {
+    color: white;
+    text-shadow: 1px 1px 2px white;
+  }
+
+  .iconFooter {
+    font-size: large;
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+  }
+
+  .icons {
+    color: rgb(148, 147, 147);
+  }
+
+}
